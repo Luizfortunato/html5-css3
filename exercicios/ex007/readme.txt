@@ -1,0 +1,1 @@
+Nessa aula foi apresentado exemplos de tags em HTM4 e HTML5. No primeiro arquivo encontra-se exemplos de tags que caíram em desuso e foram deixadas de lado com a introdução do HTML5. 

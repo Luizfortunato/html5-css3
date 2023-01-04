@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagen/favicon.ico" type="image/x-icon">
+    <title>Teste imagem hover</title>
+    <style>
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;               
+        }
+
+        h2{
+            color: white;
+            background-color: black;
+            width: 300px;
+            margin: auto;
+        }
+
+        div{
+            width: 300px;
+            margin: auto;
+        }
+
+        div > img{
+            display: none;
+            margin: auto;
+        }
+
+        div:hover > h2{
+            color: black;
+            background-color: rgb(243, 215, 57);                     
+        }
+
+        div:hover > img{
+            display: block;
+            margin-top: 20px;
+            margin-left: auto;
+                       
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <h1>Tenho uma mensagem para você</h1>
+
+    <div>
+        <h2>Passe o mause AQUI!!!</h2>
+
+        <img src="imagen/bomdia.jpg" alt="bom dia">
+    </div>
+
+</body>
+</html>

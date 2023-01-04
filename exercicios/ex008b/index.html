@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagen/favicon.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+</head>
+
+<body>
+
+    <h1>Outras formatações</h1>
+
+    <h2>Código fonte</h2>
+
+    <p>O comando <code>document.getEmlementById('teste')</code> é escrito em linguagem JavaScript.</p>
+
+    <p>Exemplo da Tag CODE com um trecho de código em Python:</p>
+
+    <p>Faça um program que leia um número inteiro e mostra na tela o seu sucessor e o seu antecessor</p>
+
+    <pre>
+        <code>
+            print('Inicio do programa!!!\n')
+
+            N = int(input('Digite um número para saber o seu sucessor e também o seu antecessor: '))
+
+            print('\nO número digitado foi {} o seu sucessor é o número {} e o seu antecessor é {} !!!'.format(N, N+1, N-1))
+
+            print('\nFim do programa!!!')
+        </code>
+    </pre>
+
+    <p>Usamos a Tag PRE pois ela respeita os espaçoes e a identação original do código.</p>
+    <p>Mais um exemplo em que a identação é fundamental para a interpretação e funcionamento do código:</p>
+
+    <p>Crie um programa que leia duas notas de um aluno e calcule sua média, mostrando uma mensagem no final conforme a média atingida: <br>
+    — Média abaixo de 5,0: REPROVADO <br>
+    — Média entre 5,0 e 6,9: RECUPERAÇÃO <br>
+    — Média 7.0 ou superior: APROVADO</p>
+    <pre>
+        <code>
+            N1 = eval(input('Informe a primeira nota: '))
+            N2 = eval(input('Informe a segunda nota: '))
+            media = (N1 + N2) / 2
+            
+            print('Com as notas {:.1f} e {:.1f} sua média final é {:.1f}!!!'.format(N1, N2, media))
+            if media < 5.0:
+                print('\033[1;31mAluno REPROVADO!!!')
+            
+            elif 5 <= media <= 6.9:
+                print('\033[1;33mAluno em RECUPERAÇÃO!!!')
+            
+            elif media >= 7.0:
+                print('\033[1;32mAluno APROVADO!!!'))
+        </code>
+    </pre>
+
+    <p>Observe que no código acima a identação e as quebras de linha foram respeitadas devido ao envelopamento da Tag CODE dentro de uma Tag PRE.</p>
+
+    <h2>Citações</h2>
+
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido.</q></p>
+    <p>Acima usamos a Tag P (semântica) para uma citação simples</p>
+
+    <h2>Citações completas</h2>
+
+    <p> Segundo Ed tittel e Jeff Noble em seu livro HTML para leigos:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_e_CSS_Para_Leigos/E8ZtDwAAQBAJ?hl=pt-BR&gbpv=1&dq=html+para+leigos&printsec=frontcover">
+        Os arquivos HTML que produzem as página web são simplesmente documentos de texto, assim como os arquivos XHTML e CSS. Esse uso de documentos de texto é a razão para a Web funcionar tão bem quanto funciona.
+    </blockquote>
+
+    <h2>Abreviações</h2>
+
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML5</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+
+    <h2>Texto invertido</h2>
+
+    <p>Estou aprendendo a criar coisas em HTML. (Frase sem usar a Tag BDO)</p>
+
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo> (Frase usando a Tag BDO e dir="rtl" )</p>
+    
+</body>
+</html>

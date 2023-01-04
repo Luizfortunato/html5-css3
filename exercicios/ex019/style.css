@@ -1,0 +1,65 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@font-face {
+    font-family:"After";
+    src:url("fonts/Afterglow-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "spin" ;
+    src:url("fonts/spinwerad.ttf") format("truetype");
+    font-weight: normal;       
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(156, 185, 218, 0.658), rgba(57, 139, 57, 0.329));
+}
+
+h1#principal{
+    color: rgb(10, 119, 28);
+    font-family: 'After', serif;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 255, 179, 0.5);
+    background-image: linear-gradient(to right, rgba(57, 139, 57, 0.329), rgba(156, 185, 218, 0.658) );
+}
+
+h1{
+    color: rgb(5, 56, 90);
+    font-size: 2.5em;
+    font-weight: lighter;
+    font-family: 'Permanent Marker', serif;
+    text-shadow: 1px 2px 1px rgb(255, 255, 255);
+}
+
+.basico{
+    color: rgb(79, 172, 42);
+    font-weight: 900;
+    font-style: italic;
+    font-family: "spin", serif;
+    font-size: 1.5em;
+}
+
+.intermediario{
+    color: rgb(170, 170, 9);
+    font-weight: 900;
+    font-style: italic;
+    font-family: "spin", serif;
+    font-size: 1.5em;    
+}
+
+.avancado{
+    color: rgb(170, 9, 9);
+    font-weight: 900;
+    font-style: italic;
+    font-family: "spin", serif;
+    font-size: 1.5em;    
+}
+
+.destaque{
+    background-color: rgba(114, 235, 15, 0.301);    
+}

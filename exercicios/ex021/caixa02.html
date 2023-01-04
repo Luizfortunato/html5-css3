@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagen/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Grouping Tags</title>
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+        body{
+            background-image: linear-gradient(to right, rgba(169, 150, 63, 0.321), rgba(1, 93, 119, 0.205));
+            font-family: Arial, Helvetica, sans-serif;    
+            margin: 0;        
+        }
+
+        h1#principal{
+            font-family: 'Gemunu Libre', sans-serif;
+            color: rgb(7, 138, 136);
+            font-size: 3em;            
+        }
+
+        h3#subtitulo{
+            color: rgb(43, 131, 226);
+            font-family: 'Gemunu Libre', sans-serif;
+        }
+
+        header{
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            margin: 10px;        
+        }
+
+        nav{
+            background-color: rgb(143, 143, 143);
+            padding: 2px;
+
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            margin-right: 20px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: antiquewhite;
+        }
+
+        main{
+            background-color: rgb(255, 255, 255) ;
+            padding: 10px;
+            margin: 10px;
+        }
+          
+        article{            
+            background-color: lightgrey;
+            padding: 10px;
+        }
+
+        aside{
+            background-color: rgb(143, 143, 143);
+            width: 380px;
+            text-align: center; 
+        }
+
+        footer{
+            background-color: black;
+            padding: 1px;
+            color: white;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+
+<body>  
+    <header>
+        <h1 id="principal">Meu exemplo de site</h1> 
+
+        <h3 id="subtitulo">Utilizando Grouping Tags semânticas</h3>
+
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>  
+
+    <main>
+        <section id="assuntos">
+            <h1>Esportes Política Tecnologia</h1>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h3>Notícias sobre o Brasil</h3>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto impedit nostrum earum obcaecati, maiores officiis eveniet ratione accusantium. Animi deserunt, sapiente amet voluptatibus enim rem porro? Quod in provident officiis.</p>
+
+                <aside>
+                    <p>Artigo escrito por Luiz Gabriel Fortunato de França</p>
+                </aside>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Luiz Gabriel Fortunato como exercício do curso de HTML5 e CSS3</p>
+    </footer>
+
+</body>
+</html>
