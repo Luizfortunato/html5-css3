@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Centralização vertical</title>
+
+    <style>
+
+        section#container{
+            position: relative;
+            height: 98vh;
+            background-color: purple;
+            background-image: url(imagens/target.png);
+            background-size: 100% 100%;
+            
+        }
+
+        aside#conteudo{
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            background-image: url(imagens/target.png);
+            background-position: center center;
+            
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%)
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <section id="container">
+
+        <aside id="conteudo">
+
+        </aside>
+
+    </section>
+    
+</body>
+</html>
